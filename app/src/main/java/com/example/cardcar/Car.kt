@@ -2,11 +2,9 @@ package com.example.cardcar
 
 import androidx.annotation.DrawableRes
 import androidx.compose.ui.graphics.Color
+import com.example.cardcar.ui.theme.Primary
+import com.example.cardcar.ui.theme.Secondary
 
-
-/**
- * @author yayaly
- */
 data class Car(
     val name: String,
     @DrawableRes val image: Int,
